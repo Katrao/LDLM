@@ -1,0 +1,43 @@
+GPU General Public License Version 3.0 (GPU GNL V3.0)
+
+Copyright (C) 2025 Shrivatsa Murugan
+
+Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+
+Preamble
+
+The GPU General Public License is a free, copyleft license for software and other kinds of works, designed to ensure the freedom to share and change all versions of a program--to make sure it remains free software for all its users.
+
+TERMS AND CONDITIONS
+
+0. Definitions.
+"This License" refers to version 3.0 of the GPU General Public License.
+"The Program" refers to any copyrightable work licensed under this License.
+
+1. Source Code.
+The source code must be made available under the terms of this License.
+
+2. Copying, Distribution, and Modification.
+You may copy, distribute, and modify the Program as long as you track changes/dates in source files. Any modifications must be released under this License.
+
+3. No Warranty.
+THE PROGRAM IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+4. Acceptance.
+You are not required to accept this License, but nothing else grants you permission to modify or distribute the Program or its derivative works.
+
+5. Conveying Non-Source Forms.
+You may distribute the Program in object code or executable form provided you also provide the source code.
+
+6. Additional Terms.
+You may not impose any further restrictions on the rights granted by this License.
+
+END OF TERMS AND CONDITIONS
+
+[Insert how to apply this License to your software:]
+To apply this License, add the following header to each file:
+
+    Copyright (C) [year] [fullname]
+    This file is part of [project name] and is licensed under the GPU GNL V3.0.
+
+For more information, see <https://www.gnu.org/licenses/gpl-3.0.html>

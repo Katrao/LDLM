@@ -1,3 +1,9 @@
+# Copyright (c) 2025 Shrivatsa Murugan.
+# Distributed under the GNU GPL V3.0 software license, see the accompanying
+# file LICENSE or https://www.gnu.org/licenses/gpl-3.0.en.html
+
+# --APLANA GPT--
+
 from modules import Tokenizer, Embedder, CausalSelfAttention, Transformer, FeedForward, TextDataset
 from AplanaGPT import AplanaGPT
 import torch

@@ -1,3 +1,7 @@
+# Copyright (c) 2025 Shrivatsa Murugan.
+# Distributed under the GNU GPL V3.0 software license, see the accompanying
+# file LICENSE or https://www.gnu.org/licenses/gpl-3.0.en.html
+
 import torch
 import torch.nn as nn
 from modules import Tokenizer, Embedder, CausalSelfAttention, Transformer, FeedForward
