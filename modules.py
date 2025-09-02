@@ -4,14 +4,17 @@
 
 import torch
 import torch.nn as nn
+from tokenizers import BertWordPieceTokenizer
 
 class Tokenizer:
-    def __init__(self):
-        self.vocabsize = 256
+    def __init__(self, vsize: int = 1000):
+        self.vocabsize = vsize
+        self.tokenizer = BertWordPieceTokenizer(lowercase=True)
+        self.tokenizer.train(files=["tinyshakespeare.txt"], vocab_size=self.vocabsize, min_frequency=2)
     def encode(self, text: str) -> list:
-        return [b for b in text.encode('utf-8')]
+        return self.tokenizer.encode(text).ids
     def decode(self, tokens: list) -> str:
-        return bytes(tokens).decode('utf-8', errors='ignore')
+        return self.tokenizer.decode(tokens)
 
 class Embedder(nn.Module):
     def __init__(self, vsize: int, ctxlen : int, dmodel : int):
